@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class BasicComponent implements OnInit {
- day = 0;
+ name = "";
 
   	
  
