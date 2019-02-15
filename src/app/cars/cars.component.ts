@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Cars } from '../cars';
 import { CARS } from "../cars-items";
 
 @Component({
@@ -9,12 +10,12 @@ import { CARS } from "../cars-items";
 export class CarsComponent implements OnInit {
 	cars = CARS;
 
-  selectedCar: Car;
+  selectedCar: Cars;
   constructor() { }
 
   ngOnInit() {
   }
-onSelect(car: Car): void {
+onSelect(car: Cars): void {
     this.selectedCar = car;
   }
 }
