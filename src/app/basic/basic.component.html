@@ -5,10 +5,12 @@
 	</div>
 	<div>
 		
-		<label>Enter Name
-		<input [(ngModel)]="name" placeholder="" type="text">
 		<h3>Hello {{name}}</h3>
+		
+		<input [(ngModel)]="name" placeholder="Enter Name" type="text">
 		<hr>
-		</label>
+		<h3>Choose your ride</h3>
+		<app-cars></app-cars>
+		
 	</div>
 

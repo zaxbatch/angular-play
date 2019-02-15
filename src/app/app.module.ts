@@ -11,6 +11,8 @@ import { IntermediateComponent } from './intermediate/intermediate.component';
 import { AdvancedComponent } from './advanced/advanced.component';
 
 import { FormsModule } from '@angular/forms';
+import { CarsComponent } from './cars/cars.component';
+import { CarDetailsComponent } from './car-details/car-details.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FormsModule } from '@angular/forms';
     MenuComponent,
     BasicComponent,
     IntermediateComponent,
-    AdvancedComponent
+    AdvancedComponent,
+    CarsComponent,
+    CarDetailsComponent
   ],
   imports: [
     BrowserModule,

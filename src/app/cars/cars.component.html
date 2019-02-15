@@ -1,0 +1,14 @@
+<div class="container" id="cars">
+
+	<div class="">
+	
+		<img (click)="onSelect(car)" *ngFor="let car of cars" src={{car.pic}} alt="car">
+	</div>
+
+</div>
+
+<div *ngIf="selectedCar">
+ 
+  <h2>Your car is {{selectedCar.speed | uppercase}}</h2>
+  
+  </div>
